@@ -60,13 +60,7 @@ namespace Fantasy.Backend.Repositories.Implementations
         {
             if (!string.IsNullOrEmpty(user.Photo))
             {
-                var imageBase64 = Convert.FromBase64String(user.Photo!);
-                string contenido = user.Photo;
-                byte[] byteArray = Encoding.UTF8.GetBytes(contenido);
-                Stream StreamArchivo = new MemoryStream(byteArray);
-                string CarpetaDestino = _configuration["Configuracion:IMAGENES_USUARIO"]!;
-                string NombreArchivo = user.Photo;
-                user.Photo = await _fireBaseService.SubirStorageAsync(StreamArchivo, CarpetaDestino, NombreArchivo);
+                user.Photo = await FireBaseServiceImage(user.Photo);
             }
 
             var result = await _userManager.CreateAsync(user, password);
@@ -101,6 +95,22 @@ namespace Fantasy.Backend.Repositories.Implementations
         public async Task<bool> IsUserInRoleAsync(User user, string roleName)
         {
             return await _userManager.IsInRoleAsync(user, roleName);
+        }
+
+        private async Task<string> FireBaseServiceImage(string Image)
+        {
+            var imagePath = string.Empty;
+            if (!string.IsNullOrEmpty(Image))
+            {
+                var imageBase64 = Convert.FromBase64String(Image!);
+
+                var filePath = Image;
+                string CarpetaDestino = _configuration["Configuracion:IMAGENES_USUARIO"]!;
+                Stream StreamArchivo = File.OpenRead(filePath);
+                var fileNameWithExtension = Path.GetFileName(filePath);
+                imagePath = await _fireBaseService.SubirStorageAsync(StreamArchivo, CarpetaDestino, fileNameWithExtension);
+            }
+            return imagePath;
         }
     }
 }

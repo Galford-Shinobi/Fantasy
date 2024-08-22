@@ -138,9 +138,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         ValidateAudience = false,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        ValidIssuer = builder.Configuration["Tokens:Issuer"],
-        ValidAudience = builder.Configuration["Tokens:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Tokens:jwtKey"]!)),
+        ValidIssuer = builder.Configuration["JwtSettingTokens:jwtIssuer"],
+        ValidAudience = builder.Configuration["JwtSettingTokens:jwtAudience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettingTokens:jwtKey"]!)),
         ClockSkew = TimeSpan.Zero
     });
 var app = builder.Build();
