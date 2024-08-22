@@ -4,18 +4,18 @@ namespace Fantasy._Frontend.Repositories
 {
     public class HttpResponseWrapper<T>
     {
-        public HttpResponseWrapper(T? response, bool error, HttpResponseMessage httpResponseMessage)
+        public HttpResponseWrapper(T response, bool error, HttpResponseMessage httpResponseMessage)
         {
             Response = response;
             Error = error;
             HttpResponseMessage = httpResponseMessage;
         }
 
-        public T? Response { get; }
+        public T Response { get; }
         public bool Error { get; }
         public HttpResponseMessage HttpResponseMessage { get; }
 
-        public async Task<string?> GetErrorMessageAsync()
+        public async Task<string> GetErrorMessageAsync()
         {
             if (!Error)
             {
