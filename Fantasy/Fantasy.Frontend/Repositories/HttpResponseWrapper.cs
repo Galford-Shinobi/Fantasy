@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Fantasy._Frontend.Repositories
+namespace Fantasy.Frontend.Repositories
 {
     public class HttpResponseWrapper<T>
     {

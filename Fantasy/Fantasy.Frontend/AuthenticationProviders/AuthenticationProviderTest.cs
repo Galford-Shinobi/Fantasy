@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components.Authorization;
 using System.Security.Claims;
 
-namespace Fantasy._Frontend.AuthenticationProviders
+namespace Fantasy.Frontend.AuthenticationProviders
 {
     public class AuthenticationProviderTest : AuthenticationStateProvider
     {

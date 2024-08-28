@@ -1,12 +1,12 @@
-﻿using Fantasy._Frontend.Helpers;
-using Fantasy._Frontend.Services;
+﻿using Fantasy.Frontend.Helpers;
+using Fantasy.Frontend.Services;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.JSInterop;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net.Http.Headers;
 using System.Security.Claims;
 
-namespace Fantasy._Frontend.AuthenticationProviders
+namespace Fantasy.Frontend.AuthenticationProviders
 {
     public class AuthenticationProviderJWT : AuthenticationStateProvider, ILoginService
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace Fantasy._Frontend.Shared
+namespace Fantasy.Frontend.Shared
 {
     public partial class GenericList<Titem>
     {

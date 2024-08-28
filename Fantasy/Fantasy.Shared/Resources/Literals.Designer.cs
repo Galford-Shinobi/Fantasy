@@ -22,7 +22,7 @@ namespace Fantasy.Shared.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Literals {
+    public class Literals {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Fantasy.Shared.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Fantasy.Shared.Resources.Literals", typeof(Literals).Assembly);
@@ -51,7 +51,7 @@ namespace Fantasy.Shared.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to About.
         /// </summary>
-        internal static string About {
+        public static string About {
             get {
                 return ResourceManager.GetString("About", resourceCulture);
             }
@@ -72,16 +72,61 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Actions.
         /// </summary>
-        internal static string Actions {
+        public static string Actions {
             get {
                 return ResourceManager.GetString("Actions", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Activate.
+        /// </summary>
+        public static string Activate {
+            get {
+                return ResourceManager.GetString("Activate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add.
+        /// </summary>
+        public static string Add {
+            get {
+                return ResourceManager.GetString("Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add Match to Tournament.
+        /// </summary>
+        public static string AddMatchToTournament {
+            get {
+                return ResourceManager.GetString("AddMatchToTournament", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add Team.
+        /// </summary>
+        public static string AddTeam {
+            get {
+                return ResourceManager.GetString("AddTeam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add Team to Tournament.
+        /// </summary>
+        public static string AddTeamToTournament {
+            get {
+                return ResourceManager.GetString("AddTeamToTournament", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Admin.
         /// </summary>
-        internal static string Admin {
+        public static string Admin {
             get {
                 return ResourceManager.GetString("Admin", resourceCulture);
             }
@@ -90,7 +135,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Administrator Registration.
         /// </summary>
-        internal static string AdminRegister {
+        public static string AdminRegister {
             get {
                 return ResourceManager.GetString("AdminRegister", resourceCulture);
             }
@@ -99,7 +144,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to All.
         /// </summary>
-        internal static string All {
+        public static string All {
             get {
                 return ResourceManager.GetString("All", resourceCulture);
             }
@@ -108,7 +153,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Authorizing....
         /// </summary>
-        internal static string Authorizing {
+        public static string Authorizing {
             get {
                 return ResourceManager.GetString("Authorizing", resourceCulture);
             }
@@ -117,34 +162,61 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Cancel.
         /// </summary>
-        internal static string Cancel {
+        public static string Cancel {
             get {
                 return ResourceManager.GetString("Cancel", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Change Password.
+        /// </summary>
+        public static string ChangePassword {
+            get {
+                return ResourceManager.GetString("ChangePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clean.
         /// </summary>
-        internal static string Clean {
+        public static string Clean {
             get {
                 return ResourceManager.GetString("Clean", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Code.
+        /// </summary>
+        public static string Code {
+            get {
+                return ResourceManager.GetString("Code", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Confirmation.
         /// </summary>
-        internal static string Confirmation {
+        public static string Confirmation {
             get {
                 return ResourceManager.GetString("Confirmation", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Confirmed.
+        /// </summary>
+        public static string Confirmed {
+            get {
+                return ResourceManager.GetString("Confirmed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Thank you for confirming your email, you can now log in to the system..
         /// </summary>
-        internal static string ConfirmedEmailMessage {
+        public static string ConfirmedEmailMessage {
             get {
                 return ResourceManager.GetString("ConfirmedEmailMessage", resourceCulture);
             }
@@ -153,7 +225,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Email confirmation.
         /// </summary>
-        internal static string ConfirmEmail {
+        public static string ConfirmEmail {
             get {
                 return ResourceManager.GetString("ConfirmEmail", resourceCulture);
             }
@@ -162,7 +234,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Press the button to confirm your account..
         /// </summary>
-        internal static string ConfirmEmailMessage {
+        public static string ConfirmEmailMessage {
             get {
                 return ResourceManager.GetString("ConfirmEmailMessage", resourceCulture);
             }
@@ -171,7 +243,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Countries.
         /// </summary>
-        internal static string Countries {
+        public static string Countries {
             get {
                 return ResourceManager.GetString("Countries", resourceCulture);
             }
@@ -180,7 +252,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Country.
         /// </summary>
-        internal static string Country {
+        public static string Country {
             get {
                 return ResourceManager.GetString("Country", resourceCulture);
             }
@@ -189,16 +261,43 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Create.
         /// </summary>
-        internal static string Create {
+        public static string Create {
             get {
                 return ResourceManager.GetString("Create", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Current Password.
+        /// </summary>
+        public static string CurrentPassword {
+            get {
+                return ResourceManager.GetString("CurrentPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date.
+        /// </summary>
+        public static string Date {
+            get {
+                return ResourceManager.GetString("Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deactivate.
+        /// </summary>
+        public static string Deactivate {
+            get {
+                return ResourceManager.GetString("Deactivate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete.
         /// </summary>
-        internal static string Delete {
+        public static string Delete {
             get {
                 return ResourceManager.GetString("Delete", resourceCulture);
             }
@@ -207,7 +306,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Are you sure to delete the {0}: {1}?.
         /// </summary>
-        internal static string DeleteConfirm {
+        public static string DeleteConfirm {
             get {
                 return ResourceManager.GetString("DeleteConfirm", resourceCulture);
             }
@@ -216,7 +315,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Edit.
         /// </summary>
-        internal static string Edit {
+        public static string Edit {
             get {
                 return ResourceManager.GetString("Edit", resourceCulture);
             }
@@ -225,7 +324,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Edit User Profile.
         /// </summary>
-        internal static string EditUserProfile {
+        public static string EditUserProfile {
             get {
                 return ResourceManager.GetString("EditUserProfile", resourceCulture);
             }
@@ -234,7 +333,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Email.
         /// </summary>
-        internal static string Email {
+        public static string Email {
             get {
                 return ResourceManager.GetString("Email", resourceCulture);
             }
@@ -243,7 +342,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The email you entered already exists..
         /// </summary>
-        internal static string EmailAlreadyExists {
+        public static string EmailAlreadyExists {
             get {
                 return ResourceManager.GetString("EmailAlreadyExists", resourceCulture);
             }
@@ -252,7 +351,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Record not found..
         /// </summary>
-        internal static string ERR001 {
+        public static string ERR001 {
             get {
                 return ResourceManager.GetString("ERR001", resourceCulture);
             }
@@ -261,7 +360,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Cannot be deleted because it has related records..
         /// </summary>
-        internal static string ERR002 {
+        public static string ERR002 {
             get {
                 return ResourceManager.GetString("ERR002", resourceCulture);
             }
@@ -270,7 +369,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The record you are trying to create already exists..
         /// </summary>
-        internal static string ERR003 {
+        public static string ERR003 {
             get {
                 return ResourceManager.GetString("ERR003", resourceCulture);
             }
@@ -279,7 +378,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The country Id is not valid..
         /// </summary>
-        internal static string ERR004 {
+        public static string ERR004 {
             get {
                 return ResourceManager.GetString("ERR004", resourceCulture);
             }
@@ -288,7 +387,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The team Id is not valid..
         /// </summary>
-        internal static string ERR005 {
+        public static string ERR005 {
             get {
                 return ResourceManager.GetString("ERR005", resourceCulture);
             }
@@ -297,7 +396,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Incorrect email or password..
         /// </summary>
-        internal static string ERR006 {
+        public static string ERR006 {
             get {
                 return ResourceManager.GetString("ERR006", resourceCulture);
             }
@@ -306,7 +405,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to You have exceeded the maximum number of attempts, your account is blocked, please try again in 5 minutes..
         /// </summary>
-        internal static string ERR007 {
+        public static string ERR007 {
             get {
                 return ResourceManager.GetString("ERR007", resourceCulture);
             }
@@ -315,16 +414,88 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The user has not been enabled, you must follow the instructions in the email sent to enable the user..
         /// </summary>
-        internal static string ERR008 {
+        public static string ERR008 {
             get {
                 return ResourceManager.GetString("ERR008", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The tournament Id is not valid..
+        /// </summary>
+        public static string ERR009 {
+            get {
+                return ResourceManager.GetString("ERR009", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The local Id is not valid..
+        /// </summary>
+        public static string ERR010 {
+            get {
+                return ResourceManager.GetString("ERR010", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The visitor Id is not valid..
+        /// </summary>
+        public static string ERR011 {
+            get {
+                return ResourceManager.GetString("ERR011", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The match Id is not valid..
+        /// </summary>
+        public static string ERR012 {
+            get {
+                return ResourceManager.GetString("ERR012", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The user Id is not valid..
+        /// </summary>
+        public static string ERR013 {
+            get {
+                return ResourceManager.GetString("ERR013", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The group Id is not valid..
+        /// </summary>
+        public static string ERR014 {
+            get {
+                return ResourceManager.GetString("ERR014", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The user group is not valid..
+        /// </summary>
+        public static string ERR015 {
+            get {
+                return ResourceManager.GetString("ERR015", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The prediction Id is not valid..
+        /// </summary>
+        public static string ERR016 {
+            get {
+                return ResourceManager.GetString("ERR016", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string Error {
+        public static string Error {
             get {
                 return ResourceManager.GetString("Error", resourceCulture);
             }
@@ -333,7 +504,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Filter.
         /// </summary>
-        internal static string Filter {
+        public static string Filter {
             get {
                 return ResourceManager.GetString("Filter", resourceCulture);
             }
@@ -342,16 +513,70 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to First Name.
         /// </summary>
-        internal static string FirstName {
+        public static string FirstName {
             get {
                 return ResourceManager.GetString("FirstName", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Have you forgotten your password?.
+        /// </summary>
+        public static string ForgottenYourPassword {
+            get {
+                return ResourceManager.GetString("ForgottenYourPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Goals Local.
+        /// </summary>
+        public static string GoalsLocal {
+            get {
+                return ResourceManager.GetString("GoalsLocal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Goals Visitor.
+        /// </summary>
+        public static string GoalsVisitor {
+            get {
+                return ResourceManager.GetString("GoalsVisitor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Group.
+        /// </summary>
+        public static string Group {
+            get {
+                return ResourceManager.GetString("Group", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Group Details.
+        /// </summary>
+        public static string GroupDetails {
+            get {
+                return ResourceManager.GetString("GroupDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Groups.
+        /// </summary>
+        public static string Groups {
+            get {
+                return ResourceManager.GetString("Groups", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hello.
         /// </summary>
-        internal static string Hello {
+        public static string Hello {
             get {
                 return ResourceManager.GetString("Hello", resourceCulture);
             }
@@ -360,7 +585,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
-        internal static string Home {
+        public static string Home {
             get {
                 return ResourceManager.GetString("Home", resourceCulture);
             }
@@ -369,16 +594,34 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Image.
         /// </summary>
-        internal static string Image {
+        public static string Image {
             get {
                 return ResourceManager.GetString("Image", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Is Active.
+        /// </summary>
+        public static string IsActive {
+            get {
+                return ResourceManager.GetString("IsActive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Join Group.
+        /// </summary>
+        public static string JoinGroup {
+            get {
+                return ResourceManager.GetString("JoinGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Last Name.
         /// </summary>
-        internal static string LastName {
+        public static string LastName {
             get {
                 return ResourceManager.GetString("LastName", resourceCulture);
             }
@@ -387,7 +630,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Do you want to leave the page and lose your changes?.
         /// </summary>
-        internal static string LeaveAndLoseChanges {
+        public static string LeaveAndLoseChanges {
             get {
                 return ResourceManager.GetString("LeaveAndLoseChanges", resourceCulture);
             }
@@ -396,16 +639,25 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Field {0} must be between {2} and {1} characters..
         /// </summary>
-        internal static string LengthField {
+        public static string LengthField {
             get {
                 return ResourceManager.GetString("LengthField", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Local.
+        /// </summary>
+        public static string Local {
+            get {
+                return ResourceManager.GetString("Local", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Login.
         /// </summary>
-        internal static string Login {
+        public static string Login {
             get {
                 return ResourceManager.GetString("Login", resourceCulture);
             }
@@ -414,7 +666,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Logout.
         /// </summary>
-        internal static string Logout {
+        public static string Logout {
             get {
                 return ResourceManager.GetString("Logout", resourceCulture);
             }
@@ -423,7 +675,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Are you sure you want to log out?.
         /// </summary>
-        internal static string LogoutConfirm {
+        public static string LogoutConfirm {
             get {
                 return ResourceManager.GetString("LogoutConfirm", resourceCulture);
             }
@@ -432,7 +684,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to If you log out, you will need to log back in to access your account..
         /// </summary>
-        internal static string LogoutMessage {
+        public static string LogoutMessage {
             get {
                 return ResourceManager.GetString("LogoutMessage", resourceCulture);
             }
@@ -441,43 +693,115 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Mail forwarding.
         /// </summary>
-        internal static string MailForwarding {
+        public static string MailForwarding {
             get {
                 return ResourceManager.GetString("MailForwarding", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Match.
+        /// </summary>
+        public static string Match {
+            get {
+                return ResourceManager.GetString("Match", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Match Active.
+        /// </summary>
+        public static string MatchActive {
+            get {
+                return ResourceManager.GetString("MatchActive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Matches.
+        /// </summary>
+        public static string Matches {
+            get {
+                return ResourceManager.GetString("Matches", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Match Inactive.
+        /// </summary>
+        public static string MatchInactive {
+            get {
+                return ResourceManager.GetString("MatchInactive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Field {0} cannot be longer than {1} characters..
         /// </summary>
-        internal static string MaxLength {
+        public static string MaxLength {
             get {
                 return ResourceManager.GetString("MaxLength", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Members.
+        /// </summary>
+        public static string Members {
+            get {
+                return ResourceManager.GetString("Members", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The {0} field must have at least {1} characters..
         /// </summary>
-        internal static string MinLength {
+        public static string MinLength {
             get {
                 return ResourceManager.GetString("MinLength", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You must select a local team..
+        /// </summary>
+        public static string MustSelectLocalTeam {
+            get {
+                return ResourceManager.GetString("MustSelectLocalTeam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must select a visitor team..
+        /// </summary>
+        public static string MustSelectVisitorTeam {
+            get {
+                return ResourceManager.GetString("MustSelectVisitorTeam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to New.
         /// </summary>
-        internal static string New {
+        public static string New {
             get {
                 return ResourceManager.GetString("New", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to New Password.
+        /// </summary>
+        public static string NewPassword {
+            get {
+                return ResourceManager.GetString("NewPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No.
         /// </summary>
-        internal static string No {
+        public static string No {
             get {
                 return ResourceManager.GetString("No", resourceCulture);
             }
@@ -486,7 +810,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to No records to show....
         /// </summary>
-        internal static string NoRecords {
+        public static string NoRecords {
             get {
                 return ResourceManager.GetString("NoRecords", resourceCulture);
             }
@@ -495,7 +819,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to You are not authorized to view this content....
         /// </summary>
-        internal static string NotAuthorized {
+        public static string NotAuthorized {
             get {
                 return ResourceManager.GetString("NotAuthorized", resourceCulture);
             }
@@ -504,7 +828,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Not Found.
         /// </summary>
-        internal static string NotFound {
+        public static string NotFound {
             get {
                 return ResourceManager.GetString("NotFound", resourceCulture);
             }
@@ -513,7 +837,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Sorry, there is nothing on this route..
         /// </summary>
-        internal static string NothingInRoute {
+        public static string NothingInRoute {
             get {
                 return ResourceManager.GetString("NothingInRoute", resourceCulture);
             }
@@ -522,7 +846,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Not a user yet? Register here.
         /// </summary>
-        internal static string NotUserYet {
+        public static string NotUserYet {
             get {
                 return ResourceManager.GetString("NotUserYet", resourceCulture);
             }
@@ -531,7 +855,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Password.
         /// </summary>
-        internal static string Password {
+        public static string Password {
             get {
                 return ResourceManager.GetString("Password", resourceCulture);
             }
@@ -540,25 +864,52 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The password and confirmation are not the same..
         /// </summary>
-        internal static string PasswordAndConfirmationDifferent {
+        public static string PasswordAndConfirmationDifferent {
             get {
                 return ResourceManager.GetString("PasswordAndConfirmationDifferent", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Password Changed Successfully..
+        /// </summary>
+        public static string PasswordChangedSuccessfully {
+            get {
+                return ResourceManager.GetString("PasswordChangedSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Password Confirm.
         /// </summary>
-        internal static string PasswordConfirm {
+        public static string PasswordConfirm {
             get {
                 return ResourceManager.GetString("PasswordConfirm", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Password changed successfully, you can now log in with your new password..
+        /// </summary>
+        public static string PasswordRecoveredMessage {
+            get {
+                return ResourceManager.GetString("PasswordRecoveredMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password Recovery.
+        /// </summary>
+        public static string PasswordRecovery {
+            get {
+                return ResourceManager.GetString("PasswordRecovery", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Phone Number.
         /// </summary>
-        internal static string PhoneNumber {
+        public static string PhoneNumber {
             get {
                 return ResourceManager.GetString("PhoneNumber", resourceCulture);
             }
@@ -567,16 +918,25 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Please wait....
         /// </summary>
-        internal static string PleaseWait {
+        public static string PleaseWait {
             get {
                 return ResourceManager.GetString("PleaseWait", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Points.
+        /// </summary>
+        public static string Points {
+            get {
+                return ResourceManager.GetString("Points", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Record created successfully..
         /// </summary>
-        internal static string RecordCreatedOk {
+        public static string RecordCreatedOk {
             get {
                 return ResourceManager.GetString("RecordCreatedOk", resourceCulture);
             }
@@ -585,7 +945,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Record deleted successfully..
         /// </summary>
-        internal static string RecordDeletedOk {
+        public static string RecordDeletedOk {
             get {
                 return ResourceManager.GetString("RecordDeletedOk", resourceCulture);
             }
@@ -594,7 +954,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Record saved successfully..
         /// </summary>
-        internal static string RecordSavedOk {
+        public static string RecordSavedOk {
             get {
                 return ResourceManager.GetString("RecordSavedOk", resourceCulture);
             }
@@ -603,25 +963,43 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Records Number:.
         /// </summary>
-        internal static string RecordsNumber {
+        public static string RecordsNumber {
             get {
                 return ResourceManager.GetString("RecordsNumber", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to An email has been sent to you with instructions on how to recover your password..
+        /// </summary>
+        public static string RecoverPasswordMessage {
+            get {
+                return ResourceManager.GetString("RecoverPasswordMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Register as new user.
         /// </summary>
-        internal static string Register {
+        public static string Register {
             get {
                 return ResourceManager.GetString("Register", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Remarks.
+        /// </summary>
+        public static string Remarks {
+            get {
+                return ResourceManager.GetString("Remarks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Field {0} is required..
         /// </summary>
-        internal static string RequiredField {
+        public static string RequiredField {
             get {
                 return ResourceManager.GetString("RequiredField", resourceCulture);
             }
@@ -630,7 +1008,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Resend account activation email.
         /// </summary>
-        internal static string ResendAccountActivationEmail {
+        public static string ResendAccountActivationEmail {
             get {
                 return ResourceManager.GetString("ResendAccountActivationEmail", resourceCulture);
             }
@@ -639,7 +1017,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Return.
         /// </summary>
-        internal static string Return {
+        public static string Return {
             get {
                 return ResourceManager.GetString("Return", resourceCulture);
             }
@@ -648,7 +1026,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Save Changes.
         /// </summary>
-        internal static string SaveChanges {
+        public static string SaveChanges {
             get {
                 return ResourceManager.GetString("SaveChanges", resourceCulture);
             }
@@ -657,25 +1035,61 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Search....
         /// </summary>
-        internal static string Search {
+        public static string Search {
             get {
                 return ResourceManager.GetString("Search", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to -- Select a Country ---.
+        ///   Looks up a localized string similar to -- Select a Country --.
         /// </summary>
-        internal static string SelectACountry {
+        public static string SelectACountry {
             get {
                 return ResourceManager.GetString("SelectACountry", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to -- Select a Team --.
+        /// </summary>
+        public static string SelectATeam {
+            get {
+                return ResourceManager.GetString("SelectATeam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select a Date....
+        /// </summary>
+        public static string SelectDate {
+            get {
+                return ResourceManager.GetString("SelectDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select a File… .
+        /// </summary>
+        public static string SelectFile {
+            get {
+                return ResourceManager.GetString("SelectFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select a Time....
+        /// </summary>
+        public static string SelectTime {
+            get {
+                return ResourceManager.GetString("SelectTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Send.
         /// </summary>
-        internal static string Send {
+        public static string Send {
             get {
                 return ResourceManager.GetString("Send", resourceCulture);
             }
@@ -684,7 +1098,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Your account has been created successfully. An email has been sent to you with instructions on how to activate your account..
         /// </summary>
-        internal static string SendEmailConfirmationMessage {
+        public static string SendEmailConfirmationMessage {
             get {
                 return ResourceManager.GetString("SendEmailConfirmationMessage", resourceCulture);
             }
@@ -693,7 +1107,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Soccer predictions app.
         /// </summary>
-        internal static string Subtitle {
+        public static string Subtitle {
             get {
                 return ResourceManager.GetString("Subtitle", resourceCulture);
             }
@@ -702,7 +1116,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Team.
         /// </summary>
-        internal static string Team {
+        public static string Team {
             get {
                 return ResourceManager.GetString("Team", resourceCulture);
             }
@@ -711,7 +1125,7 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Teams.
         /// </summary>
-        internal static string Teams {
+        public static string Teams {
             get {
                 return ResourceManager.GetString("Teams", resourceCulture);
             }
@@ -720,16 +1134,52 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Fantasy.
         /// </summary>
-        internal static string Title {
+        public static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Tournament.
+        /// </summary>
+        public static string Tournament {
+            get {
+                return ResourceManager.GetString("Tournament", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The tournament is active.
+        /// </summary>
+        public static string TournamentActive {
+            get {
+                return ResourceManager.GetString("TournamentActive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The tournament is inactive.
+        /// </summary>
+        public static string TournamentInactive {
+            get {
+                return ResourceManager.GetString("TournamentInactive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tournaments.
+        /// </summary>
+        public static string Tournaments {
+            get {
+                return ResourceManager.GetString("Tournaments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to User.
         /// </summary>
-        internal static string User {
+        public static string User {
             get {
                 return ResourceManager.GetString("User", resourceCulture);
             }
@@ -738,16 +1188,25 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to User Registration.
         /// </summary>
-        internal static string UserRegister {
+        public static string UserRegister {
             get {
                 return ResourceManager.GetString("UserRegister", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Users.
+        /// </summary>
+        public static string Users {
+            get {
+                return ResourceManager.GetString("Users", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to User Type.
         /// </summary>
-        internal static string UserType {
+        public static string UserType {
             get {
                 return ResourceManager.GetString("UserType", resourceCulture);
             }
@@ -756,16 +1215,25 @@ namespace Fantasy.Shared.Resources {
         /// <summary>
         ///   Looks up a localized string similar to You must enter a valid email..
         /// </summary>
-        internal static string ValidEmail {
+        public static string ValidEmail {
             get {
                 return ResourceManager.GetString("ValidEmail", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Visitor.
+        /// </summary>
+        public static string Visitor {
+            get {
+                return ResourceManager.GetString("Visitor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Yes.
         /// </summary>
-        internal static string Yes {
+        public static string Yes {
             get {
                 return ResourceManager.GetString("Yes", resourceCulture);
             }

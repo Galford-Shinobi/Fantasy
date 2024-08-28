@@ -1,4 +1,4 @@
-﻿namespace Fantasy._Frontend.Services
+﻿namespace Fantasy.Frontend.Services
 {
     public interface ILoginService
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.JSInterop;
 
-namespace Fantasy._Frontend.Helpers
+namespace Fantasy.Frontend.Helpers
 {
     public static class IJSRuntimeExtensionMethods
     {

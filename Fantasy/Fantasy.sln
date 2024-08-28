@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fantasy.Backend", "Fantasy.Backend\Fantasy.Backend.csproj", "{3196D15E-BAEF-499A-B19B-81FBAD3C3FA3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fantasy. Frontend", "Fantasy. Frontend\Fantasy. Frontend.csproj", "{D6930876-9C7C-4397-A7F2-9C5CAC1F2E2E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fantasy.Shared", "Fantasy.Shared\Fantasy.Shared.csproj", "{A07B5D15-8D4B-4B36-9A4E-BBF568E14406}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fantasy.Tests", "Fantasy.Tests\Fantasy.Tests.csproj", "{8D205CA8-9055-4B70-8C9A-7DD2C57309D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fantasy.Frontend", "Fantasy.Frontend\Fantasy.Frontend.csproj", "{17332540-D62C-4232-8F6C-BFF27C9755A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{3196D15E-BAEF-499A-B19B-81FBAD3C3FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3196D15E-BAEF-499A-B19B-81FBAD3C3FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3196D15E-BAEF-499A-B19B-81FBAD3C3FA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6930876-9C7C-4397-A7F2-9C5CAC1F2E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6930876-9C7C-4397-A7F2-9C5CAC1F2E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6930876-9C7C-4397-A7F2-9C5CAC1F2E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6930876-9C7C-4397-A7F2-9C5CAC1F2E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A07B5D15-8D4B-4B36-9A4E-BBF568E14406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A07B5D15-8D4B-4B36-9A4E-BBF568E14406}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A07B5D15-8D4B-4B36-9A4E-BBF568E14406}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{8D205CA8-9055-4B70-8C9A-7DD2C57309D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D205CA8-9055-4B70-8C9A-7DD2C57309D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D205CA8-9055-4B70-8C9A-7DD2C57309D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17332540-D62C-4232-8F6C-BFF27C9755A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17332540-D62C-4232-8F6C-BFF27C9755A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17332540-D62C-4232-8F6C-BFF27C9755A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17332540-D62C-4232-8F6C-BFF27C9755A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

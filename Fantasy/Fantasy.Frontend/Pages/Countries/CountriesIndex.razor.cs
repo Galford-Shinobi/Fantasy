@@ -1,4 +1,4 @@
-﻿namespace Fantasy._Frontend.Pages.Countries
+﻿namespace Fantasy.Frontend.Pages.Countries
 {
     public partial class CountriesIndex
     {
