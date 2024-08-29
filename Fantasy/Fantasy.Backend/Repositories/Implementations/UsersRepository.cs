@@ -102,7 +102,7 @@ namespace Fantasy.Backend.Repositories.Implementations
             var imagePath = string.Empty;
             if (!string.IsNullOrEmpty(Image))
             {
-                var imageBase64 = Convert.FromBase64String(Image!);
+                //var imageBase64 = Convert.FromBase64String(Image!);
 
                 var filePath = Image;
                 string CarpetaDestino = _configuration["Configuracion:IMAGENES_USUARIO"]!;
