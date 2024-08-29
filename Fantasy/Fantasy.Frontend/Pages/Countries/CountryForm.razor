@@ -1,0 +1,23 @@
+﻿<NavigationLock OnBeforeInternalNavigation="OnBeforeInternalNavigation" />
+
+<EditForm EditContext="editContext" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+    <MudTextField Label="@Localizer["Country"]"
+                  @bind-Value="@Country.Name"
+                  For="@(() => Country.Name)"
+                  Class="mb-4" />
+
+    <MudButton Variant="Variant.Outlined"
+               StartIcon="@Icons.Material.Filled.ArrowBack"
+               Color="Color.Info"
+               OnClick="ReturnAction">
+        @Localizer["Return"]
+    </MudButton>
+
+    <MudButton Variant="Variant.Outlined"
+               StartIcon="@Icons.Material.Filled.Check"
+               Color="Color.Primary"
+               ButtonType="ButtonType.Submit">
+        @Localizer["SaveChanges"]
+    </MudButton>
+</EditForm>
