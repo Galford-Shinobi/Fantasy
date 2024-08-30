@@ -5,6 +5,7 @@
     <MudTextField Label="@Localizer["Country"]"
                   @bind-Value="@Country.Name"
                   For="@(() => Country.Name)"
+                  Required="true" RequiredError="Name Country is required!"
                   Class="mb-4" />
 
     <MudButton Variant="Variant.Outlined"

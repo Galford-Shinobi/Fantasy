@@ -14,8 +14,7 @@ namespace Fantasy.Frontend.Pages.Countries
 
         [Inject] private IRepository Repository { get; set; } = null!;
         [Inject] private NavigationManager NavigationManager { get; set; } = null!;
-
-        //[Inject] private SweetAlertService SweetAlertService { get; set; } = null!;
+        [Inject] private SweetAlertService SweetAlertService { get; set; } = null!;
         [Inject] private IStringLocalizer<Literals> Localizer { get; set; } = null!;
 
         private async Task CreateAsync()
@@ -24,19 +23,19 @@ namespace Fantasy.Frontend.Pages.Countries
             if (responseHttp.Error)
             {
                 var message = await responseHttp.GetErrorMessageAsync();
-                //await SweetAlertService.FireAsync(Localizer["Error"], message);
+                await SweetAlertService.FireAsync(Localizer["Error"], message);
                 return;
             }
 
             Return();
-            //var toast = SweetAlertService.Mixin(new SweetAlertOptions
-            //{
-            //    Toast = true,
-            //    Position = SweetAlertPosition.BottomEnd,
-            //    ShowConfirmButton = true,
-            //    Timer = 3000
-            //});
-            // await toast.FireAsync(icon: SweetAlertIcon.Success, message: Localizer["RecordCreatedOk"]);
+            var toast = SweetAlertService.Mixin(new SweetAlertOptions
+            {
+                Toast = true,
+                Position = SweetAlertPosition.BottomEnd,
+                ShowConfirmButton = true,
+                Timer = 3000
+            });
+            await toast.FireAsync(icon: SweetAlertIcon.Success, message: Localizer["RecordCreatedOk"]);
         }
 
         private void Return()

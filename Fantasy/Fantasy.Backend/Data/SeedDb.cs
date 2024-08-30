@@ -92,10 +92,10 @@ namespace Fantasy.Backend.Data
                 var filePath = $"{Environment.CurrentDirectory}\\Images\\users\\{image}";
                 var fileBytes = File.ReadAllBytes(filePath);
                 string CarpetaDestino = _configuration["Configuracion:FireBase_StorageCarpeta_Usuario"]!;
-                if (File.Exists(filePath))
-                {
-                    imagePath = await FireBaseServiceImage(filePath, CarpetaDestino);
-                }
+                //if (File.Exists(filePath))
+                //{
+                //    imagePath = await FireBaseServiceImage(filePath, CarpetaDestino);
+                //}
                 if (email == "draco.master.orochi@yopmail.com")
                 {
                     country = await _context.Countries.FirstOrDefaultAsync(x => x.Name == "Japan");
