@@ -45,7 +45,7 @@ namespace Fantasy.Backend.Controllers
             actionResponse.WasSuccess = true;
             actionResponse.Message = StatusCodes.Status200OK.ToString();
             actionResponse.Result = country;
-            return Ok(actionResponse);
+            return Ok(actionResponse.Result);
         }
 
         [HttpPost]
