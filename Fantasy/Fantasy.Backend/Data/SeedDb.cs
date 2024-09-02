@@ -67,13 +67,15 @@ namespace Fantasy.Backend.Data
 
         private async Task CheckUsersAsync()
         {
+            await CheckUserAsync("Yuan", "Herong", "Yua.HerongW01@yopmail.com", "322 311 4620", "YuanHerongW01.jpg", UserType.Admin);
+            await CheckUserAsync("Chun-Li y Cammy", "Chun-Li Cammy", "Chun-Li.Cammy@yopmail.com", "322 311 4620", "YuanHerongW02.jpg", UserType.Admin);
             await CheckUserAsync("Draco Master", "Orochi", "draco.master.orochi@yopmail.com", "322 311 4620", "DracoMaster.png", UserType.Admin);
             await CheckUserAsync("Juan", "Zuluaga", "zulu@yopmail.com", "322 311 4620", "JuanZuluaga.jpg", UserType.Admin);
             await CheckUserAsync("Ledys", "Bedoya", "ledys@yopmail.com", "322 311 4620", "LedysBedoya.jpg", UserType.User);
             await CheckUserAsync("Brad", "Pitt", "brad@yopmail.com", "322 311 4620", "Brad.jpg", UserType.User);
             await CheckUserAsync("Angelina", "Jolie", "angelina@yopmail.com", "322 311 4620", "Angelina.jpg", UserType.User);
             await CheckUserAsync("Bob", "Marley", "bob@yopmail.com", "322 311 4620", "bob.jpg", UserType.User);
-            await CheckUserAsync("Celia", "Cruz", "celia@yopmail.com", "322 311 4620", "celia.jpg", UserType.Admin);
+            await CheckUserAsync("Celia", "Cruz", "celia@yopmail.com", "322 311 4620", "celia.jpg", UserType.User);
             await CheckUserAsync("Fredy", "Mercury", "fredy@yopmail.com", "322 311 4620", "fredy.jpg", UserType.User);
             await CheckUserAsync("Hector", "Lavoe", "hector@yopmail.com", "322 311 4620", "hector.jpg", UserType.User);
             await CheckUserAsync("Liv", "Taylor", "liv@yopmail.com", "322 311 4620", "liv.jpg", UserType.User);
